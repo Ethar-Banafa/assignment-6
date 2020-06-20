@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+     <head>
+    <meta charset="utf-8">.
+    <meta name="description" content="My first webpage, with image">
+    <meta name="keywords" content="a website">
+    <meta name="author" content="Ethar Banafa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>A webpage</title>
+  </head>
+    <body>
+<h1>Pizza Time!!!</h1>
+<p>Enter in all the requirments and then you will get the final price including the tax. <br>Note: answer with yes or no for toppings.</p>
+  <p>Please select the size of your pizza:</p>
+  <form action="/action_page.php">
+  <input type="radio" id="large" name="size" value=" $6.00">
+  <label for="large">large pizza</label><br>
+  <input type="radio" id="extra large" name="size" value="$10.00">
+  <label for="extra large">extra large</label><br>
+  <br>
+   <p>Please select your toppings:</p>
+  <input type="radio" id="topping1" name="topping" value="$1.00 ">
+  <label for="topping1">Topping 1</label><br>
+  <input type="radio" id="topping2" name="topping" value="$1.75">
+  <label for="topping3">Topping 2</label><br>  
+  <input type="radio" id="topping3" name="topping" value="$2.50 ">
+  <label for="topping3">Topping 3</label><br>
+  <input type="radio" id="topping4" name="topping" value="$3.35 ">
+  <label for="topping4">Topping 4</label><br><br>
+</form>
+
+<button id="btn" onclick="myFunction()">Click me</button>
+<script>
+function myFunction() {
+   let pizza;
+   let topping;
+   large pizza = document.getElementById("large").value;
+   extra large= document.getElementById("extra large").value;
+    topping1= document.getElementById("topping1").value;
+    topping2= document.getElementById("topping2").value;
+    topping3 = document.getElementById("topping3").value;
+    topping4= document.getElementById("topping4").value;
+    if (pizza=="large" || pizza=="extra large")||(topping=="topping1" || topping=="topping2" || topping=="topping3"|| topping=="topping4")) {
+    
+}
+
+   
+  
+</script>
+    </body>
+</html>
