@@ -50,31 +50,29 @@ var total=;
     topping3 = document.getElementById("topping3").value;
     topping4= document.getElementById("topping4").value;
     
-    if ((large="large") || (topping1="topping1")) {
-    document.getElementById("demo").value;
-    var total=large+topping1;
-"The total is: " + total;
+if (document.getElementById("large").checked && document.getElementById("topping1").checked) {
+total = large + topping1;
 }
-else if ((large="large")|| (topping2="topping2")) {
-    alert ("the price is 7.75");
+else if ( document.getElementById("large").checked && document.getElementById("topping2").checked) {
+total = large + topping2;
 }
-else if ((large="large")||(topping3="topping3")) {
-  alert("the price is 8.5");  
+else if ( document.getElementById("large").checked && document.getElementById("topping3").checked) {
+ total = large + topping3;
 }
-else if ((large="large")||(topping4="topping4")) {
-    alert("the price is 9.35");
+else if (document.getElementById("large").checked && document.getElementById("topping4").checked) {
+total = large + topping4;
 }
-else if ((extralarge="extralarge")||(topping1="topping1")) {
-    alert("the price is 11");
+else if (document.getElementById("extralarge").checked && document.getElementById("topping1").checked) {
+ total = extralarge + topping1;
 }
-else if ((extralarge="extralarge")||(topping2="topping2")){
-    alert("the price is 11.75");
+else if (document.getElementById("extralarge").checked && document.getElementById("topping2").checked) {
+total = extralarge + topping2;
 }
-else if ((extralarge="extralarge")||(topping3="topping3")){
-    alert("the price is 12.5");
+else if ( document.getElementById("extralarge").checked && document.getElementById("topping3").checked) {
+total = extralarge + topping3;
 }
-else if ((extralarge="extralarge")|| (topping4="topping4")) {
-    alert("the price is 13.35");
+else if (document.getElementById("large").checked && document.getElementById("topping1").checked) {
+  total = extralarge + topping4;
 }
 }
 </script>
